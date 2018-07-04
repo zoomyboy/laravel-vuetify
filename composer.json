@@ -1,0 +1,23 @@
+{
+    "name": "zoomyboy/vuetify-preset",
+    "description": "Vuetify Preset for laravel",
+    "authors": [
+        {
+            "name": "Philipp Lang",
+            "email": "pille@zoomyboy.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zoomyboy\\VuetifyPreset\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zoomyboy\\VuetifyPreset\\VuetifyPresetServiceProvider"
+            ]
+        }
+    }
+}
